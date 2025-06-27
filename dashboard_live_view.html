@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sales Dashboard View</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 900px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        h1 {
+            color: #333;
+            font-size: 2.25rem; /* text-4xl */
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+            margin-top: 20px;
+            border: 1px solid #e0e0e0; /* subtle border around the image */
+        }
+        p {
+            color: #666;
+            font-size: 1.125rem; /* text-lg */
+            margin-bottom: 15px;
+        }
+        .instructions {
+            background-color: #e0f2f7; /* Light blue background */
+            border-left: 5px solid #00aaff; /* Blue border */
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 8px;
+            text-align: left;
+        }
+        .instructions h2 {
+            font-size: 1.5rem;
+            color: #007bb5; /* Darker blue */
+            margin-bottom: 10px;
+        }
+        .instructions p, .instructions code {
+            font-size: 0.95rem;
+            color: #333;
+        }
+        .instructions code {
+            background-color: #cce9f2;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-4xl font-bold mb-6 text-gray-800">Interactive Sales Dashboard Preview</h1>
+        <p class="text-lg text-gray-600">
+            This image provides a static preview of the interactive sales dashboard.
+            To experience the full interactivity, please follow the setup instructions below.
+        </p>
+        <!-- The screenshot of the dashboard will be displayed here -->
+        <img src="dashboard_screenshot.png" alt="Interactive Sales Dashboard Screenshot" class="mx-auto block mt-8">
+
+        <div class="instructions">
+            <h2>How to run the interactive dashboard:</h2>
+            <ol class="list-decimal list-inside text-left">
+                <li>Ensure you have Python 3.8+ and pip installed.</li>
+                <li>Clone or download the project repository.</li>
+                <li>Open your terminal/command prompt in the project's root directory.</li>
+                <li>Install dependencies: <code class="block mt-2">pip install -r requirements.txt</code></li>
+                <li>Generate data: <code class="block mt-2">python data_generator.py</code></li>
+                <li>Run the Dash app: <code class="block mt-2">python app.py</code></li>
+                <li>Open the URL (usually <code>http://127.0.0.1:8050/</code>) provided in your terminal in a web browser to view the interactive dashboard.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
