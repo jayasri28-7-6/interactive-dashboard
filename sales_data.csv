@@ -1,0 +1,16 @@
+Date,Region,ProductCategory,UnitsSold,PricePerUnit,Sales,Profit
+2022-03-15,North,Electronics,8,250.00,2005.00,600.00
+2022-07-22,South,Clothing,12,45.00,542.00,162.60
+2023-01-10,East,Home Goods,3,180.00,540.00,162.00
+2023-05-01,West,Books,7,30.00,215.00,64.50
+2022-11-05,Central,Food,15,18.00,270.00,81.00
+2023-02-28,North,Clothing,10,60.00,600.00,180.00
+2022-09-12,South,Electronics,5,300.00,1505.00,451.50
+2023-04-03,East,Books,20,15.00,300.00,90.00
+2022-06-01,West,Home Goods,4,120.00,480.00,144.00
+2023-01-20,Central,Electronics,6,280.00,1680.00,504.00
+2022-08-08,North,Food,18,10.00,180.00,54.00
+2023-03-25,South,Books,10,25.00,250.00,75.00
+2022-05-19,East,Clothing,7,55.00,385.00,115.50
+2023-06-30,West,Electronics,9,220.00,1980.00,594.00
+2022-12-10,Central,Home Goods,2,200.00,400.00,120.00
