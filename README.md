@@ -83,6 +83,7 @@ sales-performance-dashboard
 ├── requirements.txt
 ├── data_generator.py       
 ├── app.py
+├── sales_data.csv
 ```
 ## Dependencies
 
