@@ -18,12 +18,6 @@ This project demonstrates an interactive web dashboard using **Plotly Dash** to 
 * **Filtering Capabilities**: Allows interactive filtering by `Region` and `Product Category`.
 * **Actionable Insights**: Designed to help identify top-performing areas and products.
 
-## Dashboard Preview
-
-Here's a static preview of the interactive dashboard:
-
-![Interactive Sales Dashboard Screenshot](dashboard_screenshot.png)
-
 ## Getting Started
 
 Follow these steps to set up and run the project locally.
@@ -37,7 +31,7 @@ Follow these steps to set up and run the project locally.
 
 1.  **Clone the repository (or download the files):**
     ```bash
-     https://github.com/YOUR_USERNAME/sales-performance-dashboard.git   
+      https://github.com/YOUR_USERNAME/sales-performance-dashboard.git 
     ```
     *(Note: Replace `YOUR_USERNAME` with your actual GitHub username and adjust the repo name if it's different)*
 
@@ -78,12 +72,12 @@ Follow these steps to set up and run the project locally.
 
 ## Project Structure
 ```
-sales-performance-dashboard
+sales-performance-dashboard/
 ├── README.md
 ├── requirements.txt
-├── data_generator.py       
-├── app.py
-├── sales_data.csv
+├── data_generator.py        
+├── app.py                   
+└── sales_data.csv
 ```
 ## Dependencies
 
@@ -97,5 +91,3 @@ All dependencies are listed in `requirements.txt`.
 * **Deployment**: Deploy the Dash app to a cloud platform.
 * **Additional Interactivity**: Add more filter options, cross-filtering, or drill-down.
 * **Theming and Styling**: Enhance visual appeal with custom CSS.
-
-
